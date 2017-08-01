@@ -12,7 +12,10 @@ import org.springframework.stereotype.Component;
 public class Application {
 
     private static Logger LOGGER = LoggerFactory.getLogger(Application.class.getSimpleName());
-
+     
+    /**
+     * AFTER LAUNCH PLEASE READ README AT http://localhost:8080/
+     */
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
